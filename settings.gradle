@@ -1,0 +1,7 @@
+include ':FORTSDKv1.8'
+include ':FawrySDK'
+include ':FawrySDK_1.0.28_21042020'
+include ':FawrySDK_1.0.28_21042020'
+include ':FawrySDK_1.0.28_21042020'
+include ':app'
+rootProject.name = "Test Payment"

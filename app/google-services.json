@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "561511274178",
+    "firebase_url": "https://test-payment-2c32d.firebaseio.com",
+    "project_id": "test-payment-2c32d",
+    "storage_bucket": "test-payment-2c32d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:561511274178:android:ff172324a56ae355104d5b",
+        "android_client_info": {
+          "package_name": "com.example.testpayment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "561511274178-hbj7khnl9mf6fn4ct91odi3fth7dle4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7XaPPzs6dsh_EhXt5KAvcVlorbpqsnvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "561511274178-hbj7khnl9mf6fn4ct91odi3fth7dle4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
