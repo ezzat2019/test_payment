@@ -52,6 +52,7 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment-ktx:2.3.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.1'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     testImplementation 'junit:junit:4.+'
     kapt 'androidx.test.ext:junit:1.1.2'
     implementation('androidx.browser:browser:1.2.0')
@@ -108,4 +109,8 @@ dependencies {
     implementation 'com.google.android.exoplayer:exoplayer-core:2.12.2'
     implementation 'com.google.android.exoplayer:exoplayer-dash:2.12.2'
     implementation 'com.google.android.exoplayer:exoplayer-ui:2.12.2'
+
+    implementation 'com.airbnb.android:lottie:3.5.0'
+    implementation "com.adyen.checkout:drop-in:3.7.3"
+    implementation "com.adyen.checkout:card-ui:3.7.3"
 }
