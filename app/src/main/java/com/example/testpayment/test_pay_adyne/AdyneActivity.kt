@@ -1,6 +1,7 @@
 package com.example.testpayment.test_pay_adyne
 
 import android.os.Bundle
+import android.util.Log
 import android.view.MotionEvent
 import android.view.View
 import android.widget.ImageView
@@ -8,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.airbnb.lottie.LottieAnimationView
 import com.example.testpayment.R
+import java.util.*
 
 class AdyneActivity : AppCompatActivity() {
     private var boolean: Boolean = true
@@ -17,7 +19,12 @@ class AdyneActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_adyne)
-        lotti = findViewById(R.id.animeeeeeeeee);
+
+
+        Log.d("qqqqqqq", "onCreate: " + UUID.randomUUID().toString())
+
+
+        lotti = findViewById(R.id.animeeeeeeeee)
         lotti.setOnClickListener({
             if (boolean) {
                 lotti.speed = 5f
@@ -31,8 +38,8 @@ class AdyneActivity : AppCompatActivity() {
             }
         })
 
-        car = findViewById(R.id.car);
-        val imageView: ImageView = findViewById(R.id.imageView);
+        car = findViewById(R.id.car)
+        val imageView: ImageView = findViewById(R.id.imageView)
         imageView.setOnTouchListener(object : View.OnTouchListener {
             override fun onTouch(v: View?, event: MotionEvent?): Boolean {
                 val parms: ConstraintLayout.LayoutParams = imageView.layoutParams as ConstraintLayout.LayoutParams

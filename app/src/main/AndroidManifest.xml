@@ -23,7 +23,7 @@
         android:usesCleartextTraffic="true"
         tools:replace="android:theme">
         <activity
-            android:name=".test_pay_adyne.AdyneActivity"
+            android:name=".video_ticktock.VideoActivity"
             android:theme="@style/Theme.TestPayment3">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,12 +32,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".exo_player.ExoActivity"
-            android:configChanges="orientation|screenSize|layoutDirection"
-            android:theme="@style/Theme.TestPayment2">
+            android:name=".test_pay_adyne.AdyneActivity"
+            android:theme="@style/Theme.TestPayment3">
 
         </activity>
-        <activity android:name=".mew_bottom_nav.BottomNavActivity"></activity>
+        <activity
+            android:name=".exo_player.ExoActivity"
+            android:configChanges="orientation|screenSize|layoutDirection"
+            android:theme="@style/Theme.TestPayment2"></activity>
+        <activity android:name=".mew_bottom_nav.BottomNavActivity" />
         <activity android:name=".library_payment.LibraryPaymentActivity" />
         <activity android:name=".google_pay.GooglePayActivity" />
         <activity android:name=".optimized_recycle.OptimizedRecycleActivity">
